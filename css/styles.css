@@ -10852,12 +10852,12 @@ html {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .divider-custom .divider-custom-line {
   width: 100%;
-  max-width: 7rem;
+  max-width: 30rem;
   height: 0.25rem;
   background-color: #2c3e50;
   border-radius: 1rem;
@@ -10980,10 +10980,13 @@ html {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  text-align: left;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
-  text-align: justify;
+  /* text-align: justify; */
+  text-align: left;
+
 }
 .masthead .masthead-avatar {
   width: 15rem;
@@ -10998,6 +11001,7 @@ html {
     padding-top: 50px;
     font-size: 4rem;
     line-height: 3.5rem;
+    text-align: left;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
@@ -11156,8 +11160,6 @@ html {
 .member-item a:hover {
   color: #3d72a4; /* Change color on hover */
 }
-
-
 
 
 .past-activity {
